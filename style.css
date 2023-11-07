@@ -27,6 +27,15 @@ hr {
     margin: 2rem 0rem;
 }
 
+.text--align-justify {
+    text-align: justify;
+}
+
+.text--align-center {
+    display: block;
+    text-align: center;
+}
+
 .marg-bottom {
     margin-bottom: 1rem !important;
 }
@@ -120,7 +129,7 @@ hr {
     margin-right: 2rem;
 }
 
-.nav-items a {
+.nav-items a, .nav a {
     text-decoration: none;
     color: white;
 }
@@ -140,6 +149,11 @@ hr {
     display: block;
     max-width: 400px;
     margin: auto;
+}
+
+.header-project {
+    text-align: center;
+    padding: 1rem 0rem;
 }
 
 /* section */
