@@ -1,1 +1,0 @@
-#### Checkout my [portfolio](https://neerajsingh869.netlify.app/) app to know more about me and my work
