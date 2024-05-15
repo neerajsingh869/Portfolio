@@ -10,6 +10,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.element-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 /* header styles */
 nav, .nav-links {
   display: flex;
@@ -133,6 +143,7 @@ section {
   height: 96vh;
   margin: 0 10rem;
   min-height: fit-content;
+  border: 1px solid black;
 }
 
 .section-text-p1 {
@@ -239,6 +250,7 @@ section {
   padding: 0rem 10rem;
   text-align: justify;
   margin-block: 2.5rem;
+  flex-direction: column;
 }
 
 .section-text-p3 {
