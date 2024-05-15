@@ -207,7 +207,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 70vh;
+  height: 80vh;
   align-items: center;
 }
 
@@ -232,4 +232,15 @@ section {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+}
+
+/* about me section */
+#about {
+  padding: 0rem 10rem;
+  text-align: justify;
+  margin-block: 2.5rem;
+}
+
+.about-text p {
+  font-size: 1.25rem;
 }
