@@ -137,6 +137,13 @@ a, .btn {
   transform: none;
 }
 
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 /* sections */
 section {
   padding-top: 4vh;
@@ -155,6 +162,7 @@ section {
   font-size: 3rem;
   text-align: center;
   white-space: nowrap;
+  margin-bottom: 1rem;
 }
 
 .section-text-p2 {
@@ -249,10 +257,35 @@ section {
 #about {
   padding: 0rem 10rem;
   text-align: justify;
-  margin-block: 2.5rem;
   flex-direction: column;
 }
 
 .section-text-p3 {
   font-size: 1.25rem;
+}
+
+/* skills section */
+.skills-container {
+  margin-top: 2rem;
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  grid-template-rows: 300px;
+}
+
+.details-container {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.details-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
 }
