@@ -1,9 +1,67 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #desktop-nav {
     display: none;
   }
 
   #hamburger-nav {
     display: flex;
+  }
+
+  section {
+    margin: 0 2rem;
+  }
+
+  .hero {
+    display: block;
+  }
+
+  .hero-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-pic-container img {
+    height: 275px;
+    width: 275px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .section-text-p1 {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section-text-p2 {
+    font-size: 1.25rem;
+  }
+
+  .hero-pic-container img {
+    height: 225px;
+    width: 225px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section-text-p1 {
+    font-size: 0.9rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .section-text-p2 {
+    font-size: 1rem;
   }
 }
