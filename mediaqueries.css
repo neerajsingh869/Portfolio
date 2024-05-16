@@ -107,6 +107,11 @@
   .details-title {
     font-size: 1.25rem;
   }
+
+  footer nav ul.nav-links {
+    gap: 1rem;
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
