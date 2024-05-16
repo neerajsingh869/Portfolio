@@ -187,6 +187,13 @@ section {
   height: 2rem;
 }
 
+/* arrow */
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
 /* buttons */
 .btn-container {
   display: flex;
@@ -228,12 +235,13 @@ section {
 }
 
 /* hero section */
-.hero {
+#hero {
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
   align-items: center;
+  position: relative;
 }
 
 .hero-content-container {
@@ -263,6 +271,7 @@ section {
 #about {
   text-align: justify;
   flex-direction: column;
+  position: relative;
 }
 
 .section-text-p3 {
@@ -270,6 +279,10 @@ section {
 }
 
 /* skills section */
+#skills {
+  position: relative;
+}
+
 .skills-container {
   margin-top: 2rem;
   display: grid;
@@ -320,6 +333,7 @@ section {
 /* projects section */
 #projects {
   height: fit-content;
+  position: relative;
 }
 
 .projects-container {

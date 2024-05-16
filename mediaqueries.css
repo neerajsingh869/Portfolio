@@ -26,6 +26,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .arrow {
+    display: none;
+  }
+  
   #desktop-nav {
     display: none;
   }
@@ -42,7 +46,7 @@
     padding: 0 2rem;
   }
 
-  .hero {
+  #hero {
     display: block;
   }
 
