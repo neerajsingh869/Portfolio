@@ -7,13 +7,12 @@
   --primary-color-3: rgb(181, 181, 181);
   --background-color: rgb(255, 255, 255);
   --secondary-color: rgb(0, 0, 0);
-  --secondary-color: rgb(85, 85, 85);
-  --button-secondary-color: rgb(53, 53, 53);
-  --button-background: var(--button-secondary-color);
+  --secondary-color-2: rgb(85, 85, 85);
+  --button-background: rgb(53, 53, 53);
   --button-text-hover: grey;
-  --button-secondar-color: var(--button-secondary-color);
+  --button-secondary-color: rgb(53, 53, 53);
   --button-primary-color: rgb(255, 255, 255);
-  --button-border: 0.1rem solid var(--button-secondar-color);
+  --button-border: 0.1rem solid var(--button-secondary-color);
   --button-border-2: 0.1rem solid var(--button-primary-color);
   --container-border: rgb(163, 163, 163);
 }
@@ -24,13 +23,12 @@
   --primary-color-3: rgb(74, 74, 74);
   --background-color: rgb(33, 33, 33);
   --secondary-color: rgb(255, 255, 255);
-  --secondary-color: rgb(170, 170, 170);
-  --button-primary-color: rgb(202, 202, 202);
-  --button-background: var(--button-primary-color);
+  --secondary-color-2: rgb(170, 170, 170);
+  --button-background: rgb(202, 202, 202);
   --button-text-hover: lightgrey;
-  --button-secondar-color: var(--button-primary-color);
+  --button-secondary-color: rgb(202, 202, 202);
   --button-primary-color: rgb(0, 0, 0);
-  --button-border: 0.1rem solid var(--button-secondar-color);
+  --button-border: 0.1rem solid var(--button-secondary-color);
   --button-border-2: 0.1rem solid var(--button-primary-color);
   --container-border: rgb(92, 92, 92);
 }
@@ -47,6 +45,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
 }
 
 p {
@@ -139,6 +138,7 @@ a, .btn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 999;
 }
 
 .menu-links a {
