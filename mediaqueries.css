@@ -61,6 +61,11 @@
   .articles-container {
     justify-content: space-around;
   }
+
+  #contact {
+    height: fit-content;
+    padding-block: 3rem;
+  }
 }
 
 @media screen and (max-width: 890px) {
