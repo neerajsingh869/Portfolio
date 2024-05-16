@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+/* Default light mode */
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --primary-color-2: rgb(250, 250, 250);
+  --primary-color-3: rgb(181, 181, 181);
+  --background-color: rgb(255, 255, 255);
+  --secondary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(85, 85, 85);
+  --button-secondary-color: rgb(53, 53, 53);
+  --button-background: var(--button-secondary-color);
+  --button-text-hover: grey;
+  --button-secondar-color: var(--button-secondary-color);
+  --button-primary-color: rgb(255, 255, 255);
+  --button-border: 0.1rem solid var(--button-secondar-color);
+  --button-border-2: 0.1rem solid var(--button-primary-color);
+  --container-border: rgb(163, 163, 163);
+}
+
+[theme="dark"] {
+  --primary-color: rgb(0, 0, 0);
+  --primary-color-2: rgb(39, 39, 39);
+  --primary-color-3: rgb(74, 74, 74);
+  --background-color: rgb(33, 33, 33);
+  --secondary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(170, 170, 170);
+  --button-primary-color: rgb(202, 202, 202);
+  --button-background: var(--button-primary-color);
+  --button-text-hover: lightgrey;
+  --button-secondar-color: var(--button-primary-color);
+  --button-primary-color: rgb(0, 0, 0);
+  --button-border: 0.1rem solid var(--button-secondar-color);
+  --button-border-2: 0.1rem solid var(--button-primary-color);
+  --container-border: rgb(92, 92, 92);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +47,10 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: rgb(85, 85, 85);
 }
 
 .element-center {
@@ -178,7 +217,6 @@ section {
 
 .section-text p {
   font-weight: 600;
-  color: rgb(85, 85, 85);
 }
 
 /* icons */
