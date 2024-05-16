@@ -295,6 +295,7 @@ section {
   flex-wrap: wrap;
   column-gap: 2.5rem;
   row-gap: 1rem;
+  justify-content: space-around;
 }
 
 .articles-container article {
