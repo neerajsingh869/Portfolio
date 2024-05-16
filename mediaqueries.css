@@ -58,6 +58,14 @@
   .section-text-p3 {
     font-size: 1rem;
   }
+
+  .skills-container {
+    width: 100%;
+  }
+
+  .details-title {
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -71,5 +79,10 @@
 
   .section-text-p2 {
     font-size: 1rem;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 300px);
   }
 }

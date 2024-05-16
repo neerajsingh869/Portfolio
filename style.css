@@ -271,7 +271,7 @@ section {
   width: 90%;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  grid-template-rows: 300px;
+  git 
 }
 
 .details-container {
