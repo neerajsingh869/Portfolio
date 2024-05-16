@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -348,4 +352,18 @@ section {
 .project-title {
   white-space: nowrap;
   margin-block: 1rem;
+}
+
+/* contacts section */
+#contact {
+  padding-block: 2rem;
+}
+
+.contacts-info-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  padding: 1rem 2rem;
 }
