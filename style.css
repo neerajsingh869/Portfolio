@@ -312,11 +312,16 @@ section {
 }
 
 /* projects section */
+#projects {
+  height: fit-content;
+}
+
 .projects-container {
   display: flex;
   width: 100%;
   gap: 2rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .project-container {
@@ -326,10 +331,21 @@ section {
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.1rem solid;
   text-align: center;
-  width: 30%;
 }
 
 .project-cover-container img {
   width: 90%;
   height: 90%;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.project-cover-container img:hover {
+  transform: scale(1.05);
+}
+
+.project-title {
+  white-space: nowrap;
+  margin-block: 1rem;
 }
