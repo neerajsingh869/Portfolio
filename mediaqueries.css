@@ -19,6 +19,10 @@
   .skills-container {
     grid-template-rows: repeat(1, 700px);
   }
+
+  #skills {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -74,7 +78,7 @@
   }
 
   .skills-container {
-    grid-template-rows: repeat(1, 690px);
+    grid-template-rows: repeat(1, 720px);
   }
 }
 
@@ -103,6 +107,10 @@
 
   .section-text-p3 {
     font-size: 1rem;
+  }
+
+  .section-text-p4 {
+    font-size: 1.25rem;
   }
 
   .skills-container {
